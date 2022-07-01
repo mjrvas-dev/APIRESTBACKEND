@@ -1,0 +1,4 @@
+node_modules
+
+#Configuraciones importantes del sistio web
+.env
