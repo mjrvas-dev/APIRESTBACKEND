@@ -6,6 +6,9 @@ import authRouter from './routes/auth.route.js'
 const app = express();
 app.use(express.json());
 
+// solo para el ejemplo login/token
+app.use(express.static('public'));
+
 app.use('/api/v1/auth', authRouter)
 
 const PORT = process.env.PORT || 5000
